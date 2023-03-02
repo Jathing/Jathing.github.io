@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="./childcss/cinemaDetail.css" />
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <img src="../images/icon/back_icon.png" alt="" />
+        &nbsp;<span> 电影院</span>
+      </div>
+      <div class="right">
+        <img src="../images/icon/share_icon2.png" alt="" />
+        <img src="../images/icon/more_icon.png" alt="" />
+      </div>
+    </header>
+
+    <div class="details">
+      <h2>嘉年华国际影城</h2>
+      <div>
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <span>评分9.0</span>
+      </div>
+      <p>改签 WIFI 停车场 观影小食 激光巨幕</p>
+      <p>南宁市青秀万达广场(甲2栋41楼)</p>
+      <p class="yellow">距离2km</p>
+      <div class="local">
+        <img src="../images/icon/add_icon.png" alt="" />
+      </div>
+    </div>
+
+    <p class="yellow notice">温馨提示：电影开场前15分钟关闭在线售票通道</p>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../images/img/movie_1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/img/movie_2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/img/movie_3.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/img/movie_4.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="../images/img/movie_5.jpg" alt="" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="name">
+      <span>哈利波特与魔法石</span>&nbsp;<span>9.0分</span>
+      <p>120分/科幻/导演:阿方索卡隆</p>
+    </div>
+
+    <div class="date">
+      <div class="swiper1">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">今天03-27</div>
+            <div class="swiper-slide colorful">明天03-28</div>
+            <div class="swiper-slide">后天03-29</div>
+            <div class="swiper-slide">周六03-30</div>
+            <div class="swiper-slide">周日03-31</div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="count">
+      <span>优惠活动</span>&nbsp;
+      <span>办理会员卡充值享8折电影票价</span>
+      <span>100元开充></span>
+    </div>
+
+    <ul>
+      <li>
+        <div>
+          <h2>15:20</h2>
+          <p class="gray">17:11离场</p>
+        </div>
+        <div>
+          <p>国语2D</p>
+          <p class="gray">千库激光1号厅</p>
+        </div>
+        <div>
+          <h2>30.09元</h2>
+          <p class="org">会员卡特惠28元</p>
+        </div>
+        <div>
+          <button>买票选座</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h2>15:20</h2>
+          <p class="gray">17:11离场</p>
+        </div>
+        <div>
+          <p>国语2D</p>
+          <p class="gray">千库激光1号厅</p>
+        </div>
+        <div>
+          <h2>30.09元</h2>
+          <p class="org">会员卡特惠28元</p>
+        </div>
+        <div>
+          <button>买票选座</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h2>15:20</h2>
+          <p class="gray">17:11离场</p>
+        </div>
+        <div>
+          <p>国语2D</p>
+          <p class="gray">千库激光1号厅</p>
+        </div>
+        <div>
+          <h2>30.09元</h2>
+          <p class="org">会员卡特惠28元</p>
+        </div>
+        <div>
+          <button>买票选座</button>
+        </div>
+      </li>
+      <li>
+        <div>
+          <h2>15:20</h2>
+          <p class="gray">17:11离场</p>
+        </div>
+        <div>
+          <p>国语2D</p>
+          <p class="gray">千库激光1号厅</p>
+        </div>
+        <div>
+          <h2>30.09元</h2>
+          <p class="org">会员卡特惠28元</p>
+        </div>
+        <div>
+          <button>买票选座</button>
+        </div>
+      </li>
+    </ul>
+
+    <!-- Swiper JS -->
+    <script src="../Swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3.5,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

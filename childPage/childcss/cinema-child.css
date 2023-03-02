@@ -1,0 +1,176 @@
+header {
+  margin: 2rem 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+}
+header .left img {
+  width: 1.5rem;
+}
+header .left span {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+header .right img:nth-child(1) {
+  margin-right: 2rem;
+}
+header .right img {
+  width: 2rem;
+}
+
+.details {
+  background-color: #343232;
+  padding: 3rem;
+  border-bottom: 1px solid black;
+}
+.details h2 {
+  font-size: 2rem;
+}
+
+.details > div {
+  margin: 1rem 0px;
+}
+.details > div img {
+  width: 2rem;
+  vertical-align: bottom;
+}
+.details > div > span {
+  color: #f73171;
+  vertical-align: middle;
+  font-size: 1.7rem;
+}
+
+.details > span {
+  color: #808080;
+}
+
+.site {
+  background-color: #343232;
+  border-bottom: 1px solid #000;
+}
+
+.site .site-top {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #38c566;
+  margin: 0 auto;
+}
+
+.site .site-top > div {
+  margin: 2rem 1rem;
+}
+.site .site-top img {
+  width: 2.5rem;
+  vertical-align: middle;
+}
+.site .screen {
+  width: 50%;
+  height: 4rem;
+  color: #fff;
+  background-color: #38c566;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 4rem;
+}
+
+.site .site-choose {
+  display: flex;
+  margin-top: 0.625rem;
+}
+.site .site-choose .num {
+  transform: translate(0.625rem, -0.625rem);
+  text-align: center;
+  background-color: #717070;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 33rem;
+  width: 2.3rem;
+  border-radius: 1rem;
+}
+
+.site .site-choose .all-site {
+  transform: translate(0.625rem);
+}
+
+.site .site-choose .row img {
+  width: 2.5rem;
+  margin: 0.45rem;
+}
+
+.sited {
+  background-color: #343232;
+  padding: 0.9375rem;
+  display: flex;
+  align-items: center;
+}
+
+.sited div {
+  margin: 0 1rem;
+}
+
+.sited > span {
+  font-size: 2rem;
+}
+
+.sited .card {
+  width: 12rem;
+  height: 5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  background-color: #494747;
+  position: relative;
+}
+
+.sited .card::before {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #343232;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -0.5rem;
+}
+.sited .card span,
+.sited .card p {
+  font-size: 1rem;
+}
+
+.sited .card span {
+  color: #b3b3b3;
+}
+
+.sited .card p {
+  color: #f73171;
+}
+
+.sited .card img {
+  width: 1rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 1rem;
+}
+
+.total {
+  width: 100%;
+  height: 12vh;
+  background-color: #343232;
+  padding-top: 3rem;
+}
+.total a {
+  margin: 0 auto;
+  display: block;
+  width: 35rem;
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #f73171;
+  text-align: center;
+  font-size: 2rem;
+  border-radius: 3rem;
+}

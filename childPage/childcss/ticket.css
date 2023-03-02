@@ -1,0 +1,136 @@
+header {
+  margin: 2rem 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+}
+header .left img {
+  width: 1.5rem;
+}
+header .left span {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+header .right img:nth-child(1) {
+  margin-right: 2rem;
+}
+header .right img {
+  width: 2rem;
+}
+
+.white-space {
+  margin: 1rem auto;
+  box-sizing: border-box;
+  padding: 1rem;
+  height: 70%;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 1rem;
+  color: #000;
+  position: relative;
+}
+.white-space .mid {
+  text-align: center;
+}
+.white-space .mid h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.white-space .mid img {
+  width: 12rem;
+}
+.white-space .mid p {
+  margin: 1rem 0;
+}
+.white-space .mid .gray {
+  color: #b8b8b8;
+}
+
+.white-space .dashed {
+  border: 1px dashed #b8b8b8;
+  border-left: none;
+  border-right: none;
+  padding: 1rem 0;
+}
+.white-space .dashed p {
+  margin: 1.5rem 2rem;
+}
+
+.white-space .bottom {
+  text-align: center;
+}
+.white-space .bottom .gray {
+  color: #b8b8b8;
+}
+.white-space .bottom .green {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #19bc8c;
+}
+.white-space .bottom img {
+  width: 12rem;
+  margin-bottom: 5rem;
+}
+.white-space .bottom p {
+  margin: 1rem 0;
+}
+
+.white-space .black {
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.white-space .mid::before {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 29rem;
+  left: -1rem;
+}
+
+.white-space .mid::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 29rem;
+  right: -1rem;
+}
+
+.white-space .dashed::before {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 44.5rem;
+  left: -1rem;
+}
+.white-space .dashed::after {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 2.5rem;
+
+  background-color: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 44.5rem;
+  right: -1rem;
+}

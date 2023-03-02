@@ -1,0 +1,45 @@
+.video-panel {
+  width: 100vw;
+  position: relative;
+}
+
+.video-panel h2 {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  left: 1rem;
+}
+
+.video-panel video {
+  width: 100vw;
+  height: 30vh;
+}
+
+.video-panel .video-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #454343;
+  padding: 1rem 0;
+}
+.video-panel .video-bottom .avatar img {
+  width: 3rem;
+  border-radius: 50%;
+}
+.video-panel .video-bottom .like img {
+  width: 2.5rem;
+}
+.video-panel .video-bottom .share img {
+  width: 2.5rem;
+}
+.video-panel .video-bottom .evaluate img {
+  width: 2.5rem;
+}
+
+.video-panel:nth-child(4) {
+  margin-bottom: 10rem;
+}
+
+footer a:nth-child(4) p {
+  color: #f73171;
+}

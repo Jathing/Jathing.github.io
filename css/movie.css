@@ -1,0 +1,138 @@
+body {
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vw;
+  /* margin: 0 15px; */
+  box-sizing: border-box;
+}
+
+header .location {
+  line-height: 13vw;
+}
+header .location span {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+header .location img {
+  width: 1.4rem;
+  margin-top: 0.1875rem;
+}
+
+header .hot {
+  font-size: 1.8rem;
+}
+header .hot span:nth-child(1) {
+  color: #f73171;
+  margin-right: 2rem;
+}
+
+header .search img {
+  width: 2.5rem;
+}
+
+/* rank */
+.ranking {
+  display: flex;
+  justify-content: space-between;
+  background-color: #464545;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  font-size: 1.7rem;
+}
+.ranking .rank-left > img {
+  width: 2rem;
+  vertical-align: middle;
+}
+.ranking .rank-left span {
+  vertical-align: bottom;
+}
+
+.ranking .rank-right span:nth-child(2) {
+  display: inline-block;
+  color: #f73171;
+  vertical-align: center;
+}
+
+.ranking .rank-right img {
+  width: 0.7rem;
+  vertical-align: center;
+}
+
+/* list */
+ul {
+  margin-bottom: 10rem;
+}
+
+ul li {
+  display: flex;
+  position: relative;
+  margin: 1rem 0rem;
+}
+ul li .poster {
+  width: 25%;
+}
+ul li .poster img {
+  width: 100%;
+}
+
+ul li .details {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+ul li .details h3 {
+  font-size: 2rem;
+}
+
+ul li .details p,
+ul li .details .actor,
+ul li .details .release-time {
+  color: #808080;
+}
+ul li .details .actor span {
+  margin-right: 0.4375rem;
+}
+
+ul li .details .colorful {
+  margin: 1rem 0rem;
+}
+
+ul li .details .colorful span {
+  background-color: #f73171;
+  padding: 0rem 1rem;
+  border-radius: 10px;
+}
+
+ul li .details .score span {
+  color: #f73171;
+}
+
+ul li .details .score img {
+  width: 1.5rem;
+}
+
+ul li .details button {
+  color: #fff;
+  background-color: #38c566;
+  width: 8rem;
+  height: 4rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: none;
+  border-radius: 0.125rem;
+}
+
+/* 底部 */
+footer a:nth-child(2) {
+  color: #f73171;
+}

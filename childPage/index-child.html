@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="../js/flexible.js"></script>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="./childcss/index-child.css" />
+    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <img src="../images/icon/back_icon.png" alt="" />
+        <span>电影院</span>
+      </div>
+      <div class="right">
+        <img src="../images/icon/share_icon2.png" alt="" />
+        <img src="../images/icon/more_icon.png" alt="" />
+      </div>
+    </header>
+
+    <div class="video-panel">
+      <video
+        src="../images/video/source_1.mp4"
+        controls
+        poster="../images/img/movie_6.jpg"
+      ></video>
+    </div>
+
+    <div class="title">
+      <div class="title-left">
+        <h2>假面饭店</h2>
+        <p>120分钟悬疑 上映时间: 2020-08-01</p>
+      </div>
+      <div class="title-right">
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <img src="../images/icon/star_icon.png" alt="" />
+        <span>评分</span>
+        <h2>9.0</h2>
+        <p>10万人参与评论</p>
+      </div>
+    </div>
+
+    <div class="button">
+      <button>
+        <img src="../images/icon/like_icon.png" alt="" />
+        <span> 想看</span>
+      </button>
+      <button>
+        <img src="../images/icon/collect_icon.png" alt="" />
+        <span> 看过</span>
+      </button>
+    </div>
+
+    <article>
+      <div class="poster">
+        <img src="../images/img/movie_6.jpg" alt="" />
+        <div class="poster-list">
+          <ul>
+            <li>导演: 铃木雅之</li>
+            <li>主演: 木村拓哉 长泽雅美 前田敦子</li>
+            <li>类型: 悬疑</li>
+            <li>屏幕: 2D</li>
+            <li>片长: 120分钟</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="introduction">
+        <h2>剧情介绍</h2>
+        <p>
+          东京都内发生了三起杀人事件。
+          警方从所有案发现场都遗留有的无法解释的数列推断出这是一系列带有预告信息的连环杀人案，并就此展开了侦查。
+          警视厅搜查一课的精英刑警新田浩介（木村拓哉饰）破译出该数字预示着下一次作案的场所，他由此推测东京柯尔特西亚酒店将会成为第4起命案现场。
+          然而凶手是谁却毫无线索。警方因此决定潜入东京柯尔特西亚进行调查，新田则要扮作前台人员追查凶手。
+          受命指导他的是东京柯尔特西亚的优秀前台员工山岸尚美（长泽雅美饰）。
+        </p>
+      </div>
+
+      <div class="actors-list">
+        <h2>演员列表:</h2>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_2.jpeg" alt="" />
+              <div>
+                <p>木村拓哉</p>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_3.jpeg" alt="" />
+              <p>长泽雅美</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_1.jpeg" alt="" />
+              <p>前田敦子</p>
+            </div>
+            <div class="swiper-slide">
+              <img src="../images/img/avatar_4.jpeg" alt="" />
+              <p>小田向文世</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </article>
+    <a href="./buy-tickets.html">
+      <footer>
+        <p>特惠购票</p>
+      </footer>
+    </a>
+
+    <script src="../Swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>

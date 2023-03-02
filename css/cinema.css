@@ -1,0 +1,165 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 13vw;
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+header .location {
+  line-height: 13vw;
+}
+header .location span {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+header .location img {
+  width: 1.4rem;
+  margin-top: 0.1875rem;
+}
+
+header h2 {
+  font-size: 2.3rem;
+}
+
+header .search img {
+  width: 2.5rem;
+}
+
+/* 导航 */
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #464545;
+  padding: 10px 0px;
+}
+nav span {
+  font-size: 1.7rem;
+  vertical-align: middle;
+}
+
+nav div img {
+  width: 0.8rem;
+  vertical-align: middle;
+  margin-top: 0.1875rem;
+}
+
+ul {
+  margin-bottom: 10rem;
+}
+
+ul li {
+  background-color: #2c2b2b;
+  padding: 1.25rem 1.25rem 0.3rem 1.25rem;
+  margin: 1rem 0;
+}
+ul li a {
+  display: block;
+  z-index: 99;
+}
+
+ul li .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+  padding: 0 0 1.25rem 0;
+}
+
+ul li .card-top img {
+  width: 1.5rem;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+ul li .card-top span {
+  vertical-align: middle;
+}
+
+ul li .card-content > div {
+  margin: 1.6rem 0px;
+}
+
+ul li .address {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li .address > div span {
+  color: #b3b3a6;
+  vertical-align: middle;
+}
+ul li .address img {
+  width: 1.4rem;
+  vertical-align: middle;
+}
+
+ul li .card-content > div:nth-child(2) {
+  color: #b3b3a6;
+}
+ul li .card-content .colorful {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li .card-content .colorful > div span {
+  border-radius: 3px;
+  padding: 0.125rem 0.25rem;
+}
+
+ul li .card-content .colorful > div span:nth-child(1) {
+  background-color: #fbc216;
+}
+
+ul li .card-content .colorful > div span:nth-child(2) {
+  background-color: #a05bf6;
+}
+ul li .card-content .colorful > div span:nth-child(3) {
+  background-color: #38c566;
+}
+ul li .card-content .colorful > div span:nth-child(4) {
+  background-color: #21c3f8;
+}
+
+ul li .card-content .colorful > span {
+  color: #b3b3a6;
+}
+ul li .card-content .last-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li .card-content .last-line .color span:nth-child(1) {
+  padding: 0.25rem 0.5rem;
+  background-color: #38c566;
+  box-sizing: border-box;
+}
+ul li .card-content .last-line .color span:nth-child(3) {
+  padding: 0.25rem 0.5rem;
+  background-color: #a05bf6;
+  box-sizing: border-box;
+}
+
+ul li .card-content .last-line img {
+  width: 2rem;
+  vertical-align: middle;
+  margin-right: -0.1875rem;
+}
+ul li .card-content .last-line .price {
+  color: #f73171;
+}
+
+ul li .card-content .last-line span {
+  vertical-align: middle;
+}
+
+ul li .card-content .last-line .num {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+/* 底部 */
+footer a:nth-child(3) p {
+  color: #f73171;
+}

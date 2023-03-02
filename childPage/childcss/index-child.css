@@ -1,0 +1,194 @@
+header {
+  margin: 0.9375rem;
+  position: fixed;
+}
+header .left img {
+  width: 1.5rem;
+}
+header .left span {
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+header .right {
+  position: fixed;
+  right: 0.9375rem;
+  top: 0.9375rem;
+}
+header .right img:nth-child(1) {
+  margin-right: 2rem;
+}
+header .right img {
+  width: 2rem;
+}
+
+header .video-panel {
+  width: 100vw;
+  position: relative;
+}
+
+.video-panel h2 {
+  position: absolute;
+  font-size: 2rem;
+  top: 2rem;
+  left: 1rem;
+}
+
+.video-panel video {
+  width: 100vw;
+  height: 30vh;
+}
+
+.title {
+  margin: 0rem 0.9375rem;
+  display: flex;
+  justify-content: space-between;
+}
+.title h2 {
+  font-size: 2rem;
+}
+.title p {
+  display: block;
+  margin: 10px 0;
+  color: #808080;
+}
+
+.title .title-right h2,
+.title .title-right span {
+  color: #f73171;
+}
+.title .title-right h2 {
+  display: inline-block;
+  font-size: 2.5rem;
+  vertical-align: middle;
+  margin-bottom: 0.3125rem;
+}
+.title .title-right img {
+  width: 2rem;
+  vertical-align: top;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2rem;
+}
+
+.button button {
+  width: 15rem;
+  background-color: #464545;
+  border-radius: 3rem;
+  border: none;
+  padding: 1.2rem;
+}
+
+.button button img {
+  width: 2rem;
+  vertical-align: middle;
+}
+.button button span {
+  color: #fff;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+footer {
+  width: 100vw;
+  padding: 1.5rem 0;
+  font-size: 1.8rem;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: #fff;
+  background-color: #38c566;
+  z-index: 9;
+}
+article {
+  margin: 0 0.9375rem;
+}
+article .poster {
+  display: flex;
+}
+article .poster img {
+  width: 10rem;
+}
+
+article .poster .poster-list ul {
+  margin-left: 0.625rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #808080;
+  font-size: 1.6rem;
+}
+article .introduction {
+  margin: 0.625rem 0rem;
+}
+article .introduction h2 {
+  font-size: 2rem;
+}
+article .introduction p {
+  color: #808080;
+  line-height: 20px;
+  font-size: 1.6rem;
+}
+
+article .actors-list h2 {
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 18px;
+  /* background: #fff; */
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  /* -webkit-justify-content: center; */
+  /* justify-content: center; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 15rem;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.swiper-slide div {
+  display: flex;
+}
+
+.swiper-slide p {
+  width: 7.5rem;
+  font-size: 1.6rem;
+  margin-top: 0.625rem;
+  color: #808080;
+  text-align: left;
+}
+
+.swiper .swiper-pagination,
+.swiper-pagination-clickable {
+  display: none;
+}
+
+.actors-list {
+  margin-bottom: 10rem;
+}
